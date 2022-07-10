@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14237E51287ABDD900BBEBF4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14237E50287ABDD800BBEBF4 /* SafariView.swift */; };
 		146C5D3D2879982F0064F86A /* OkashiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146C5D3C2879982F0064F86A /* OkashiData.swift */; };
 		1478B6682879903300B1197D /* MyOkashiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478B6672879903300B1197D /* MyOkashiApp.swift */; };
 		1478B66A2879903300B1197D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1478B6692879903300B1197D /* ContentView.swift */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14237E50287ABDD800BBEBF4 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		14581711287A4EFD00360933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		146C5D3C2879982F0064F86A /* OkashiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiData.swift; sourceTree = "<group>"; };
 		1478B6642879903300B1197D /* MyOkashi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOkashi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1478B6672879903300B1197D /* MyOkashiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOkashiApp.swift; sourceTree = "<group>"; };
@@ -53,8 +56,10 @@
 		1478B6662879903300B1197D /* MyOkashi */ = {
 			isa = PBXGroup;
 			children = (
+				14581711287A4EFD00360933 /* Info.plist */,
 				1478B6672879903300B1197D /* MyOkashiApp.swift */,
 				1478B6692879903300B1197D /* ContentView.swift */,
+				14237E50287ABDD800BBEBF4 /* SafariView.swift */,
 				146C5D3C2879982F0064F86A /* OkashiData.swift */,
 				1478B66B2879903A00B1197D /* Assets.xcassets */,
 				1478B66D2879903A00B1197D /* Preview Content */,
@@ -140,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14237E51287ABDD900BBEBF4 /* SafariView.swift in Sources */,
 				1478B66A2879903300B1197D /* ContentView.swift in Sources */,
 				146C5D3D2879982F0064F86A /* OkashiData.swift in Sources */,
 				1478B6682879903300B1197D /* MyOkashiApp.swift in Sources */,
@@ -273,6 +279,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyOkashi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyOkashi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MyOkashi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyOkashi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
